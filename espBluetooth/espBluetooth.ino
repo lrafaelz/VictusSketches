@@ -48,7 +48,7 @@ int outputValueY = 0;
 void setup(){
   Serial.begin(115200);
   hallEffectSetup();
-  ESP_BT.begin("ESP32_Victus"); // Inicia o Bluetooth com o nome "ESP32_Test"
+  ESP_BT.begin("ESP32_Victus");
 
 }
 
