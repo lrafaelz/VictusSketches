@@ -5,7 +5,7 @@ int EMGSensor() {
 	outputValue = map(sensorValue, 0, 4095, 0, 255);
 	// change the analog out value:
 	analogWrite(analogOutPin, outputValue);
-  return sensorValue;
+//  return sensorValue;
+  return 0; // while EMGSensor is unused
 
 }
-// code from Arduino IDE: File > Examples > 03.Analogic > AnalogicInOutSerial
